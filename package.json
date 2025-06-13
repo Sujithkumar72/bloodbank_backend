@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "swagger": "node ./swagger/generate-docs.js",
+    "swagger": "node ./swagger/swagger.js",
     "test": "jest"
   },
   "keywords": [
