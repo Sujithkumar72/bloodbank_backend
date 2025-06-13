@@ -1,19 +1,6 @@
-project-root/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── authController.js
-│   ├── adminController.js
-│   └── donorController.js
-├── models/
-│   ├── userModel.js
-│   └── donorModel.js
-├── routes/
-│   ├── authRoutes.js
-│   ├── adminRoutes.js
-│   └── donorRoutes.js
-├── swagger/
-│   └── swagger.js
-├── app.js
-├── package.json
-└── .env
+npm install express mariadb bcrypt dotenv express-session body-parser swagger-jsdoc swagger-ui-express
+
+NODE_ENV=development node app.js
+
+
+http://localhost:3000/api-docs
